@@ -1,7 +1,7 @@
 function SectionHeader({ icon: Icon, title }) {
   return (
     <h2 className="
-        text-xl       /* mobile */
+        text-base       /* mobile */
         sm:text-md
         md:text-lg
         font-semibold flex items-center gap-2 mb-4">
