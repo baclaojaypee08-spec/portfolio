@@ -26,12 +26,37 @@ export const about = {
 
 
 export const techStack = {
-  Frontend: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
-  Backend: ["Node.js", "Express", "MongoDB"],
-  Tools: ["Git", "Figma", "VS Code"],
-  Software: ["Windows", "Linux", "MacOS"],
-  Design: ["Figma", "Adobe XD", "Sketch"]
+  Frontend: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Tailwind CSS"
+  ],
+  Backend: [
+    "Node.js",
+    "Express.js",
+    "MongoDB"
+  ],
+  Tools: [
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Postman"
+  ],
+  Design: [
+    "Figma",
+    "Adobe XD",
+    "Canva"
+  ],
+  Concepts: [
+    "Responsive Design",
+    "REST APIs",
+    "UI/UX Principles",
+    "Version Control"
+  ]
 };
+
 
 export const experiences = [
   {
