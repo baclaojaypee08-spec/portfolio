@@ -51,25 +51,24 @@ function Experience() {
             <motion.li
               key={index}
               variants={itemVariants}
-              className="relative mb-8 last:mb-0 flex items-start pb-6 hover:z-10"
+              className="relative mb-8 last:mb-0 flex items-start group pb-6 hover:z-10"
             >
-              {index !== experiences.length - 1 && (
-                <span
-                  className={`
-                    absolute left-[-7px] top-[16px]
-                    w-[2px]
-                    bg-gray-300 dark:bg-gray-600
-                    transition-all duration-200
-                    ${
-                      index === experiences.length - 1
-                        ? "h-4"
-                        : "bottom-[-2rem]"
-                    }
-                    hover:bg-blue-500
-                    hover:shadow-[0_0_10px_rgba(59,130,246,0.9)]
-                  `}
-                />
-              )}
+              <span
+                className={`
+                  absolute left-[-7px] top-[16px]
+                  w-[2px]
+                  bg-transparent
+                  transition-all duration-200
+                  group-hover:bg-blue-500
+                  group-hover:shadow-[0_0_10px_rgba(59,130,246,0.9)]
+                  ${
+                    index === experiences.length - 1
+                      ? "bottom-0"
+                      : "bottom-[-2rem]"
+                  }
+                `}
+              />
+
 
               {/* Dot */}
               <span
