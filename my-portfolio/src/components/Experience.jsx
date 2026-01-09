@@ -55,15 +55,18 @@ function Experience() {
             >
               {index !== experiences.length - 1 && (
                 <span
-                  className="
+                  className={`
                     absolute left-[-7px] top-[16px]
-                    bottom-[-2rem]
                     w-[2px]
-                    bg-transparent
                     transition-all duration-200
                     group-hover:bg-blue-500
                     group-hover:shadow-[0_0_10px_rgba(59,130,246,0.9)]
-                  "
+                    ${
+                      index === experiences.length - 1
+                        ? "h-4 bg-transparent"
+                        : "bottom-[-2rem] bg-transparent"
+                    }
+                  `}
                 />
               )}
 
