@@ -1,5 +1,5 @@
 // Import your profile picture
-import profilePic from "../../assets/profile.png"; // adjust path + filename
+import profilePic from "/profile.png"; // adjust path + filename
 import cvPDF from "../../assets/Curiculum-Vitae-JaypeePBaclao.pdf";
 
 import { HiOutlineDocumentText, HiOutlineMail } from "react-icons/hi";
