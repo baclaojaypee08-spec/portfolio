@@ -15,11 +15,11 @@ function Profile() {
 
       {/* Profile Info */}
       <div>
-        <h1 className="text-xl font-semibold mt-2">{profile.name}
+        <h1 className="text-xl font-semibold mt-2 flex items-center gap-1">{profile.name}
           <img src={verifiedIcon} alt="Verified" className="inline w-5 h-5 ml-1" />
         </h1>
         <p className="text-xs text-gray-500 dark:text-gray-400 flex items-center">
-          <FaMapMarkerAlt alt="Location" className="inline w-3 h-3 mr-1" />
+          <FaMapMarkerAlt className="inline w-3 h-3 mr-1" />
           {profile.location}
         </p>
         <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">{profile.role}</p>
@@ -32,7 +32,7 @@ function Profile() {
               target={btn.newTab ? "_blank" : "_self"}
               rel={btn.newTab ? "noopener noreferrer" : undefined}
               className={`flex items-center gap-2 px-3 py-1.5 rounded-md text-sm transition-colors duration-200 ${
-                btn.text === "primary"
+                btn.type === "primary"
                   ? "bg-black text-white hover:bg-gray-800"
                   : "border dark:border-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
               }`}
