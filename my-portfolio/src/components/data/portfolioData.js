@@ -18,11 +18,12 @@ export const profile = {
 
 export const about = {
   paragraphs: [
-    "I am a 4th-year BSIT student and an aspiring web developer.",
-    "I enjoy building web applications and designing clean, user-focused UI/UX.",
-    "I am actively seeking internships and junior developer roles."
+    "I am a 4th-year BSIT student and an aspiring web developer focused on building practical and engaging web solutions.",
+    "I specialize in developing responsive web applications with an emphasis on clean design and great user experience.",
+    "I am actively looking for internships and junior developer roles to further sharpen my skills in real-world projects."
   ]
 };
+
 
 export const techStack = {
   Frontend: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
