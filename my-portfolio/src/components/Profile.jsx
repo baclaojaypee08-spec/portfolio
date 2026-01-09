@@ -22,18 +22,18 @@ function Profile() {
       <div>
         <h1 className="
             text-base        /* mobile */
-            sm:text-md
-            md:text-lg
+            sm:text-lg
+            md:text-xl
             font-semibold mt-2 flex items-center gap-1
           ">
           {profile.name}
           <img src={verifiedIcon} alt="Verified" className="inline w-5 h-5 ml-1" />
         </h1>
-        <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 flex items-center">
+        <p className="text-base sm:text-xs text-gray-500 dark:text-gray-400 flex items-center">
           <FaMapMarkerAlt className="inline w-3 h-3 mr-1" />
           {profile.location}
         </p>
-        <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1 sm:mt-2">{profile.role}</p>
+        <p className="text-base sm:text-xs text-gray-600 dark:text-gray-400 mt-1 sm:mt-2">{profile.role}</p>
         {/* Buttons */}
         <div className="mt-2 flex gap-2">
           {profile.buttons.map((btn, index) => (
