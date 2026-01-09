@@ -11,7 +11,7 @@ function Profile() {
         src={profile.profilePic}
         alt={profile.name}
         className="
-          w-20 h-20        /* mobile */
+          w-24 h-24        /* mobile */
           sm:w-28 sm:h-28  /* tablet */
           md:w-32 md:h-32  /* desktop */
           rounded-sm object-cover
@@ -22,8 +22,8 @@ function Profile() {
       <div>
         <h1 className="
             text-base        /* mobile */
-            sm:text-lg
-            md:text-xl
+            sm:text-md
+            md:text-lg
             font-semibold mt-2 flex items-center gap-1
           ">
           {profile.name}
