@@ -1,6 +1,6 @@
 // Import your profile picture
 import profilePic from "../../../assets/Profile.png";
-import cvPDF from "../../assets/Curiculum-Vitae-JaypeePBaclao.pdf"; // import PDF
+import cvPDF from "../../../assets/Curiculum-Vitae-JaypeePBaclao.pdf";
 
 import { HiOutlineDocumentText, HiOutlineMail } from "react-icons/hi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
