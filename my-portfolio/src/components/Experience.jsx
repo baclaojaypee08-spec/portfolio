@@ -86,7 +86,7 @@ function Experience() {
               </span>
 
               {/* Content */}
-              <div className="ml-3 flex flex-1 gap-4">
+              <div className="ml-3 flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2">
                 <div className="group-hover:translate-x-1 transition-transform">
                   <p className="text-xs font-medium">{exp.title}</p>
                   <p className="text-xs text-gray-500 dark:text-gray-400">
@@ -99,7 +99,7 @@ function Experience() {
                   </p>
                 </div>
 
-                <span className="text-xs text-gray-400 dark:text-gray-500 text-right w-16 shrink-0">
+                <span className="text-xs text-gray-400 dark:text-gray-500 sm:text-right sm:w-16 shrink-0">
                   {exp.date.from === exp.date.to ? (
                     exp.date.from
                   ) : (
