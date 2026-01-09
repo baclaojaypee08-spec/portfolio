@@ -24,7 +24,6 @@ export const about = {
   ]
 };
 
-
 export const techStack = {
   Frontend: [
     "HTML",
@@ -60,46 +59,28 @@ export const techStack = {
 
 export const experiences = [
   {
-    title: "BS Information Technology – 4th Year",
-    company: "La Consolacion University",
-    date: { from: "2025", to: "Present" }
+    title: "OJT / Internship (Actively Seeking)",
+    company: "Open for IT Placement",
+    date: { from: "2026", to: "Present" },
+    responsibilities: [
+      "Willing to learn and assist in web development, IT support, or software-related tasks",
+      "Open to gaining hands-on experience with real-world systems and team collaboration",
+      "Eager to apply academic knowledge in a professional environment"
+    ]
   },
   {
-    title: "OJT / Internship – Actively Seeking",
-    company: "Available for IT Placement",
-    date: { from: "2026", to: "2026" }
-  },
-  {
-    title: "Junior Web Developer (Freelance)",
-    company: "Personal Projects",
-    date: { from: "2025", to: "2026" }
-  },
-  {
-    title: "OJT / Internship – Actively Seeking",
-    company: "Available for IT Placement",
-    date: { from: "2026", to: "2026" }
-  },
-  {
-    title: "Junior Web Developer (Freelance)",
-    company: "Personal Projects",
-    date: { from: "2025", to: "2026" }
-  },
-  {
-    title: "Junior Web Developer (Freelance)",
-    company: "Personal Projects",
-    date: { from: "2025", to: "2026" }
-  },
-  {
-    title: "OJT / Internship – Actively Seeking",
-    company: "Available for IT Placement",
-    date: { from: "2026", to: "2026" }
-  },
-  {
-    title: "Junior Web Developer (Freelance)",
-    company: "Personal Projects",
-    date: { from: "2025", to: "2026" }
+    title: "Junior Web Developer (Freelance / Personal Projects)",
+    company: "Self-Directed Projects",
+    date: { from: "2025", to: "2026" },
+    responsibilities: [
+      "Developed responsive web applications using React and Tailwind CSS",
+      "Built reusable components and implemented clean UI/UX designs",
+      "Integrated basic backend functionality using Node.js and REST APIs",
+      "Used Git and GitHub for version control and project management"
+    ]
   }
 ];
+
 
 export const projects = [
   {
