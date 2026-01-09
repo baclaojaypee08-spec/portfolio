@@ -57,7 +57,6 @@ export default function Gallery() {
               <img
                 src={item.src}
                 alt={item.alt}
-                loading="lazy"
                 className="w-full h-full object-cover pointer-events-none"
               />
             </div>
