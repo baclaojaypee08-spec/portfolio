@@ -1,5 +1,5 @@
 // Import your profile picture
-import profilePic from "../../../assets/Profile.PNG"; // adjust path + filename
+import profilePic from "../../../assets/Profile.png"; // adjust path + filename
 import cvPDF from "../../../assets/Curiculum-Vitae-JaypeePBaclao.pdf";
 
 import { HiOutlineDocumentText, HiOutlineMail } from "react-icons/hi";
@@ -133,7 +133,7 @@ export const contactSections = [
     type: "contact",
     title: "Contact",
     items: [
-      "baclaojaypee08@email.com",
+      "baclaojaypee08@gmail.com",
       "+63 9925391303"
     ]
   }
