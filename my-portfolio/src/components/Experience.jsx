@@ -100,14 +100,16 @@ function Experience() {
                 </div>
 
                 <span className="text-xs text-gray-400 dark:text-gray-500 sm:text-right sm:w-16 shrink-0">
-                  {exp.date.from === exp.date.to ? (
-                    exp.date.from
-                  ) : (
-                    <>
-                      <span className="block">{exp.date.from}</span>
-                      <span className="block">–{exp.date.to}</span>
-                    </>
-                  )}
+                  {/* Mobile: single line */}
+                  <span className="block sm:hidden">
+                    {exp.date.from} – {exp.date.to}
+                  </span>
+
+                  {/* Desktop: stacked */}
+                  <span className="hidden sm:block">
+                    <span className="block">{exp.date.from}</span>
+                    <span className="block">– {exp.date.to}</span>
+                  </span>
                 </span>
               </div>
             </motion.li>
