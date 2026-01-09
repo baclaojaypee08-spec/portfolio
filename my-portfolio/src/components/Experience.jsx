@@ -91,6 +91,11 @@ function Experience() {
                   <p className="text-xs font-medium">{exp.title}</p>
                   <p className="text-xs text-gray-500 dark:text-gray-400">
                     {exp.company}
+                    {exp.responsibilities && exp.responsibilities.length > 0 && (
+                      <span className="block text-gray-400 dark:text-gray-500 max-w-xs">
+                        {exp.responsibilities.join(", ")}
+                      </span>
+                    )}
                   </p>
                 </div>
 
