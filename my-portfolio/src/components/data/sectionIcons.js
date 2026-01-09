@@ -16,7 +16,7 @@ export const sectionIcons = {
   EXPERIENCE: HiOutlineBriefcase,
   PROJECTS: HiOutlineFolder,
   CERTIFICATION: HiOutlineBadgeCheck,
-  GOALS: HiOutlineFlag,
+  LEARNING: HiOutlineFlag,
   SOCIAL: HiOutlineShare,
   CONTACT: HiOutlineMail,
   GALLERY: HiOutlinePhotograph,

@@ -3,7 +3,7 @@ import { sectionIcons } from "./data/sectionIcons";
 
 export default function Contact() {
   const contactIcons = {
-    goal: sectionIcons.GOALS,
+    learning: sectionIcons.LEARNING,
     social: sectionIcons.SOCIAL,
     contact: sectionIcons.CONTACT,
   };
