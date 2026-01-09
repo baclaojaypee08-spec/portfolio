@@ -92,7 +92,7 @@ function Experience() {
                   <p className="text-xs text-gray-500 dark:text-gray-400">
                     {exp.company}
                     {exp.responsibilities && exp.responsibilities.length > 0 && (
-                      <span className="block text-gray-400 dark:text-gray-500 max-w-xs">
+                      <span className="block text-gray-400 dark:text-gray-500 max-w-full sm:max-w-md md:max-w-lg">
                         {exp.responsibilities.join(", ")}
                       </span>
                     )}
