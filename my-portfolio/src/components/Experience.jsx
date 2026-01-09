@@ -51,7 +51,7 @@ function Experience() {
             <motion.li
               key={index}
               variants={itemVariants}
-              className="relative mb-8 last:mb-0 flex items-start group"
+              className="relative mb-8 last:mb-0 flex items-start group pb-6 hover:z-10"
             >
               {index !== experiences.length - 1 && (
                 <span
