@@ -38,3 +38,21 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+@keyframes wave {
+  0% { transform: translateY(0); opacity: 0.4; }
+  50% { transform: translateY(-4px); opacity: 1; }
+  100% { transform: translateY(0); opacity: 0.4; }
+}
+
+.wave-dot {
+  animation: wave 1.2s infinite ease-in-out;
+}
+
+.wave-dot:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.wave-dot:nth-child(3) {
+  animation-delay: 0.3s;
+}
