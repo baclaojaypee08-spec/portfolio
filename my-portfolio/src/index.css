@@ -30,10 +30,7 @@ body {
     blink 0.75s step-end infinite;
 }
 
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
-
+/* Hide scrollbar but keep scroll */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
