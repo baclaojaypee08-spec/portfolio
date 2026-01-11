@@ -257,4 +257,17 @@ export const gallery = [
   }
 ];
 
+export const chatbotData = {
+  name: "Jaypee P. Baclao",
+  role: "BSIT Student / Aspiring Web Developer",
+  skills: ["React", "Tailwind CSS", "JavaScript", "Node.js", "MongoDB"],
+  email: "baclaojaypee08@gmail.com",
+  projects: [
+    "Personal Portfolio Website",
+    "UI Dashboards",
+    "Web Applications"
+  ]
+};
+
+
 

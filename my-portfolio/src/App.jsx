@@ -6,6 +6,7 @@ import RecentProjects from "./components/RecentProjects";
 import RecentCertification from "./components/RecentCertification";
 import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
+import ChatBot from "./components/ChatBot";
 
 import MotionSection from "./components/MotionSection";
 
@@ -76,8 +77,10 @@ function App() {
         <MotionSection>
           <Gallery />
         </MotionSection>
-        
       </div>
+
+      <ChatBot />
+
     </div>
   );
 }
